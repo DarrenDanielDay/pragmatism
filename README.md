@@ -1,16 +1,12 @@
-# {NAME}
-
-<div align="center">
-  <img src="./logo.png" width="192" height="192" />
-</div>
+# pragmatism
 
 English | [简体中文](./README.zh-CN.md)
 
 ---
 
-[![Auto Test CI](https://github.com/DarrenDanielDay/{NAME}/actions/workflows/test.yml/badge.svg)](https://github.com/DarrenDanielDay/{NAME}/actions/) [![Publish CI](https://github.com/DarrenDanielDay/{NAME}/actions/workflows/publish.yml/badge.svg)](https://github.com/DarrenDanielDay/{NAME}/actions/) [![npm version](https://badge.fury.io/js/{NAME}.svg)](https://badge.fury.io/js/{NAME})
+[![Auto Test CI](https://github.com/DarrenDanielDay/pragmatism/actions/workflows/test.yml/badge.svg)](https://github.com/DarrenDanielDay/pragmatism/actions/) [![Publish CI](https://github.com/DarrenDanielDay/pragmatism/actions/workflows/publish.yml/badge.svg)](https://github.com/DarrenDanielDay/pragmatism/actions/) [![npm version](https://badge.fury.io/js/pragmatism.svg)](https://badge.fury.io/js/pragmatism)
 
-{DESCRIPTION}
+Pragmatism-driven JavaScript utility functions.
 
 ## License
 
