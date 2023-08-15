@@ -34,6 +34,12 @@
       "node": "./dist/index.js",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
+    },
+    "./universal": {
+      "browser": "./dist/universal.browser.esm.min.js",
+      "node": "./dist/universal.js",
+      "import": "./dist/universal.js",
+      "default": "./dist/universal.js"
     }
   },
   "devDependencies": {

@@ -4,6 +4,7 @@ import pluginReplace from "@rollup/plugin-replace";
 const config = {
   input: {
     "index.browser.esm.min": "./dist/index.js",
+    "universal.browser.esm.min": "./dist/universal.js",
   },
   external: [],
   plugins: [
