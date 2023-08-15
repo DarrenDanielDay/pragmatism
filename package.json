@@ -28,10 +28,6 @@
     "url": "https://github.com/DarrenDanielDay/pragmatism/issues"
   },
   "homepage": "https://github.com/DarrenDanielDay/pragmatism#readme",
-  "files": [
-    "dist",
-    "src"
-  ],
   "exports": {
     ".": {
       "browser": "./dist/index.browser.esm.min.js",
