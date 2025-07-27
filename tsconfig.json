@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
+    "target": "es2024",
+    "module": "esnext",
     "moduleResolution": "Bundler",
     "esModuleInterop": true,
     "isolatedModules": true,
@@ -23,6 +23,7 @@
     "outDir": "dist",
     "declarationMap": true,
     "sourceMap": true,
+    "lib": ["ESNext"],
     "skipLibCheck": true
   },
   "buildOptions": {

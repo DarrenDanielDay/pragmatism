@@ -13,14 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [22.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
       - name: Pull Code
         uses: actions/checkout@v3
       - name: Setup Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
@@ -31,7 +31,7 @@ jobs:
       - name: Test Project
         run: npm run test
       - name: Publish NPM Package
-        uses: JS-DevTools/npm-publish@v2
+        uses: JS-DevTools/npm-publish@v3
         with:
           dry-run: ${{ contains('npm-pkg-template', github.repository) }} # prevent publishing this repository
           token: ${{ secrets.NPM_TOKEN }}
