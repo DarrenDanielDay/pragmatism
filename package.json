@@ -1,6 +1,6 @@
 {
   "name": "pragmatism",
-  "version": "0.0.0-placeholder",
+  "version": "0.1.0",
   "description": "Pragmatism-driven JavaScript utility functions.",
   "type": "module",
   "sideEffects": false,
